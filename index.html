@@ -1,225 +1,404 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="warning" data-mode="dark">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jr dev</title>
         <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link
+            rel="shortcut icon"
+            href="./assets/logo.png"
+            type="image/x-icon"
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Title of the project" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://github.com/PaulleDemon" />
+        <!--Replace with the current website url-->
+        <meta property="og:image" content="" />
+
+        <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css"> -->
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+            integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Clarence Taylor</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                </ul>
+    <body
+        class="tw-flex tw-w-full tw-flex-col tw-bg-[#fff] tw-text-black dark:tw-bg-slate-800 dark:tw-text-white lg:tw-h-[100vh]"
+    >
+        <main
+            class="tw-flex tw-h-full tw-w-full tw-overflow-hidden max-lg:tw-flex-col"
+        >
+            <section
+                class="tw-flex tw-h-full tw-w-[450px] tw-flex-col tw-place-items-center tw-gap-4 tw-p-4 max-lg:tw-w-full lg:tw-shadow-xl lg:dark:tw-shadow-gray-600"
+            >
+                <!-- sidebar -->
+                <div
+                    class="tw-h-[250px] tw-w-[250px] tw-overflow-hidden tw-rounded-full"
+                >
+                    <img
+                        src="./assets/images/people/man.jpg"
+                        class="tw-h-full tw-w-full tw-object-cover"
+                        alt="man"
+                        srcset=""
+                    />
+                </div>
+
+                <h1 class="tw-text-3xl tw-font-semibold">James mabe</h1>
+
+                <p
+                    class="tw-mt-6 tw-max-w-[550px] tw-text-justify tw-text-gray-800 dark:tw-text-gray-300"
+                >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Dolores veritatis laboriosam obcaecati est minima pariatur
+                    dicta facilis, consequatur quod, hic nostrum qui
+                    voluptatibus laborum dolorum. Voluptates animi accusantium
+                    quos consequuntur!
+                </p>
+
+                <a
+                    href="https://tally.so/r/woO0Kx"
+                    class="btn-primary !tw-w-full tw-max-w-[550px] tw-transition-transform tw-duration-[0.3s] hover:tw-scale-[1.02]"
+                >
+                    Contact me
+                </a>
+
+                <div class="tw-mt-auto tw-flex tw-flex-col tw-gap-2">
+                    <h3 class="tw-text-xl">News letter</h3>
+                    <form class="tw-flex tw-gap-2">
+                        <input
+                            type="email"
+                            name=""
+                            placeholder="joe@mail.com"
+                            class="input"
+                        />
+                        <button type="submit" class="btn-primary">
+                            Signup
+                        </button>
+                    </form>
+                </div>
+
+                <div class="tw-mt-5 tw-flex tw-gap-5 tw-text-2xl">
+                    <a href="http://github.com/PaulleDemon" class="link">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://twitter.com/pauls_freeman" class="link">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a
+                        href="http://www.youtube.com/@paultalkstech"
+                        class="link"
+                    >
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="mailto:paul@example.com" class="link">
+                        <i class="bi bi-envelope-at-fill"></i>
+                    </a>
+                </div>
+            </section>
+
+            <div class="tw-h-full tw-w-full tw-overflow-hidden">
+                <header
+                    class="tw-relative tw-flex tw-w-full tw-overflow-hidden tw-p-2 max-lg:tw-h-[150px] max-lg:tw-flex-col lg:tw-h-[80px]"
+                >
+                    <!-- tabs section -->
+                    <div
+                        class="tw-absolute tw-left-[50%] tw-top-4 tw-flex tw-h-[60px] tw-translate-x-[-50%] tw-gap-4 tw-overflow-x-auto tw-rounded-md tw-border-2 tw-border-primary tw-p-1 tw-px-4 max-md:tw-w-full md:tw-w-fit"
+                    >
+                        <button
+                            class="tab-btn tab-active"
+                            onclick="openTab(event, 'about')"
+                        >
+                            About
+                        </button>
+                        <button
+                            class="tab-btn"
+                            onclick="openTab(event, 'skills')"
+                        >
+                            Skills
+                        </button>
+                        <button
+                            class="tab-btn"
+                            onclick="openTab(event, 'experience')"
+                        >
+                            Experience
+                        </button>
+                        <button
+                            class="tab-btn"
+                            onclick="openTab(event, 'call')"
+                        >
+                            Schedule call
+                        </button>
+                    </div>
+
+                    <div
+                        class="tw-m-2 tw-ml-auto tw-flex tw-place-items-center tw-gap-2 max-lg:tw-mt-auto"
+                    >
+                        <select
+                            onchange="switchTheme()"
+                            id="theme-selector"
+                            class="input !tw-h-fit !tw-p-1 tw-text-black dark:tw-text-white"
+                        >
+                            <option value="primary">Primary</option>
+                            <option value="warning" selected>warning</option>
+                            <option value="success">success</option>
+                        </select>
+
+                        <button class="tw-w-[30px]" onclick="toggleMode()">
+                            <i class="bi bi-sun-fill" id="toggle-mode-icon"></i>
+                        </button>
+                    </div>
+                </header>
+
+                <!-- tab contents -->
+                <div>
+                    <section
+                        class="tab-content tw-relative tw-flex tw-h-full tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-p-4"
+                        data-tab-name="about"
+                    >
+                        <div
+                            class="tw-flex tw-h-full tw-w-full tw-place-content-center tw-gap-6 tw-p-[5%] max-xl:tw-place-items-center max-lg:tw-flex-col"
+                        >
+                            <div
+                                class="tw-flex tw-flex-col tw-place-content-center"
+                            >
+                                <div
+                                    class="tw-text-6xl tw-font-semibold tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug"
+                                >
+                                    Hi 👋,
+                                    <br />
+                                    I am
+                                    <span class="tw-text-primary">
+                                        James mabe
+                                    </span>
+                                </div>
+                                <div
+                                    class="tw-mt-4 tw-max-w-[450px] tw-p-2 tw-text-justify max-lg:tw-max-w-full"
+                                >
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Enim velit odit
+                                    necessitatibus sint eos cumque illo harum,
+                                    quam facilis iste. Accusamus quisquam earum
+                                    repellendus excepturi nobis veniam vitae
+                                    assumenda error.
+                                </div>
+
+                                <div
+                                    class="tw-mt-4 tw-flex tw-place-content-end tw-gap-4 tw-overflow-hidden tw-p-2"
+                                >
+                                    <a
+                                        href="https://github.com/PaulleDemon"
+                                        class="btn-primary !tw-bg-[#c8cbf984] !tw-text-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                                    >
+                                        <span>Projects</span>
+                                    </a>
+                                    <a
+                                        class="btn-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                                        href="https://tally.so/r/woO0Kx"
+                                    >
+                                        Contact
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section
+                        class="tab-content tw-relative tw-flex tw-hidden tw-h-full tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-p-4"
+                        data-tab-name="skills"
+                    >
+                        <div
+                            class="tw-flex tw-h-full tw-w-full tw-flex-wrap tw-place-content-center tw-gap-6 tw-p-[5%] tw-px-[25%] max-xl:tw-place-items-center max-lg:tw-px-[10%] max-md:tw-px-2"
+                        >
+                            <div
+                                class="tw-flex tw-h-[150px] tw-w-[150px] tw-place-content-center tw-items-center tw-rounded-lg tw-border-2 tw-border-primary tw-bg-white tw-shadow-xl"
+                            >
+                                <div>
+                                    <img
+                                        src="./assets/images/icons/html5.png"
+                                        alt="html5"
+                                        srcset=""
+                                        class="tw-object-contain"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                class="tw-flex tw-h-[150px] tw-w-[150px] tw-place-content-center tw-items-center tw-rounded-lg tw-border-2 tw-border-primary tw-bg-white tw-shadow-xl"
+                            >
+                                <div>
+                                    <img
+                                        src="./assets/images/icons/django.png"
+                                        alt="html5"
+                                        srcset=""
+                                        class="tw-object-contain"
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="tw-flex tw-h-[150px] tw-w-[150px] tw-place-content-center tw-items-center tw-rounded-lg tw-border-2 tw-border-primary tw-bg-white tw-shadow-xl"
+                            >
+                                <div>
+                                    <img
+                                        src="./assets/images/icons/reactjs.png"
+                                        alt="react js"
+                                        srcset=""
+                                        class="tw-object-contain"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                class="tw-flex tw-h-[150px] tw-w-[150px] tw-place-content-center tw-items-center tw-rounded-lg tw-border-2 tw-border-primary tw-bg-white tw-shadow-xl"
+                            >
+                                <div>
+                                    <img
+                                        src="./assets/images/icons/tailwind.png"
+                                        alt="react js"
+                                        srcset=""
+                                        class="tw-object-contain"
+                                    />
+                                </div>
+                            </div>
+
+                            <div
+                                class="tw-flex tw-h-[150px] tw-w-[150px] tw-place-content-center tw-items-center tw-rounded-lg tw-border-2 tw-border-primary tw-bg-white tw-shadow-xl"
+                            >
+                                <div>
+                                    <img
+                                        src="./assets/images/icons/aws.png"
+                                        alt="aws"
+                                        srcset=""
+                                        class="tw-object-contain"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section
+                        class="tab-content tw-relative tw-flex tw-hidden tw-h-full tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-p-4"
+                        data-tab-name="experience"
+                    >
+                        <div
+                            class="tw-flex tw-h-full tw-w-full tw-flex-wrap tw-place-content-center tw-gap-6 tw-p-[5%] tw-px-[25%] max-xl:tw-place-items-center max-md:tw-px-1"
+                        >
+                            <div></div>
+
+                            <div class="timeline tw-flex tw-flex-col tw-gap-5">
+                                <div
+                                    class="timeline-container tw-relative tw-mb-8"
+                                >
+                                    <div
+                                        class="tw-flex tw-max-w-[550px] tw-flex-col tw-gap-2 tw-p-1 max-lg:tw-max-w-[320px]"
+                                    >
+                                        <h3 class="tw-text-3xl">Apple</h3>
+                                        <p
+                                            class="tw-text-gray-500 dark:tw-text-gray-200"
+                                        >
+                                            2023 - current
+                                        </p>
+                                        <p class="">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Tempora accusantium rem modi
+                                            deleniti praesentium pariatur cum
+                                            aliquid ullam aperiam ut!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="timeline-container tw-relative tw-mb-8"
+                                >
+                                    <div
+                                        class="tw-flex tw-max-w-[550px] tw-flex-col tw-gap-2 tw-p-1 max-lg:tw-max-w-[320px]"
+                                    >
+                                        <h3 class="tw-text-3xl">IBM</h3>
+                                        <p
+                                            class="tw-text-gray-500 dark:tw-text-gray-200"
+                                        >
+                                            2020 - 2023
+                                        </p>
+                                        <p class="">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Tempora accusantium rem modi
+                                            deleniti praesentium pariatur cum
+                                            aliquid ullam aperiam ut!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="timeline-container tw-relative tw-mb-8"
+                                >
+                                    <div
+                                        class="tw-flex tw-max-w-[550px] tw-flex-col tw-gap-2 tw-p-1 max-lg:tw-max-w-[320px]"
+                                    >
+                                        <h3 class="tw-text-3xl">Google</h3>
+                                        <p
+                                            class="tw-text-gray-500 dark:tw-text-gray-200"
+                                        >
+                                            2018 - 2020
+                                        </p>
+                                        <p class="">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Tempora accusantium rem modi
+                                            deleniti praesentium pariatur cum
+                                            aliquid ullam aperiam ut!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section
+                        class="tab-content tw-relative tw-flex tw-hidden tw-h-full tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-p-2"
+                        data-tab-name="call"
+                    >
+                        <div
+                            class="tw-flex tw-h-full tw-w-full tw-flex-wrap tw-place-content-center tw-gap-6 tw-p-4 max-xl:tw-place-items-center"
+                        >
+                            <iframe
+                                src="https://koalendar.com/e/meet-with-paul-about-webdesign?embed=true"
+                                width="100%"
+                                height="800px"
+                                frameborder="0"
+                            ></iframe>
+                        </div>
+                    </section>
+                </div>
+
+                <footer
+                    class="tw-mt-auto tw-flex tw-w-full tw-place-content-around tw-gap-3 tw-p-[5%] tw-px-[10%] tw-text-black max-md:tw-flex-col"
+                ></footer>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
-                    </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        </main>
     </body>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"
+        integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"
+        integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./index.js"></script>
 </html>
